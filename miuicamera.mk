@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+CAMERA_PACKAGE_NAME := com.android.camera
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.memory.block@1.0 \
