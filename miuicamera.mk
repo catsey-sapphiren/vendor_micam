@@ -11,6 +11,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    MiuiCameraOverlay \
     MiuiCameraOverlayIcon \
     MiuiCameraOverlayLeicaed
 
