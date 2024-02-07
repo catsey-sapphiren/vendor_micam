@@ -6,11 +6,37 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/camera
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/camera/proprietary/system/lib64/libgui-xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgui-xiaomi.so \
-    vendor/xiaomi/camera/proprietary/system/lib64/libcamera_algoup_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_algoup_jni.xiaomi.so \
-    vendor/xiaomi/camera/proprietary/system/lib64/libcamera_mianode_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_mianode_jni.xiaomi.so \
     vendor/xiaomi/camera/proprietary/system/lib64/libmicampostproc_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmicampostproc_client.so \
-    vendor/xiaomi/camera/proprietary/system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
+    vendor/xiaomi/camera/proprietary/system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.campostproc@1.0.so \
+    vendor/xiaomi/camera/proprietary/system/priv-app/MiuiExtraPhoto/lib/arm64/libdoc_photo.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiExtraPhoto/lib/arm64/libdoc_photo.so \
+    vendor/xiaomi/camera/proprietary/system/priv-app/MiuiExtraPhoto/lib/arm64/libdoc_photo_c++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiExtraPhoto/lib/arm64/libdoc_photo_c++_shared.so \
+    vendor/xiaomi/camera/proprietary/system/priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_dualcam_refocus.so \
+    vendor/xiaomi/camera/proprietary/system/priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_portrait_lighting.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_portrait_lighting.so \
+    vendor/xiaomi/camera/proprietary/system/priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_portrait_lighting_c.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_portrait_lighting_c.so \
+    vendor/xiaomi/camera/proprietary/system/priv-app/MiuiExtraPhoto/lib/arm64/libgallery_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiExtraPhoto/lib/arm64/libgallery_mpbase.so \
+    vendor/xiaomi/camera/proprietary/system/priv-app/MiuiExtraPhoto/lib/arm64/libmibokeh_gallery.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiExtraPhoto/lib/arm64/libmibokeh_gallery.so \
+    vendor/xiaomi/camera/proprietary/system/priv-app/MiuiExtraPhoto/lib/arm64/libmisr.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiExtraPhoto/lib/arm64/libmisr.so \
+    vendor/xiaomi/camera/proprietary/system/priv-app/MiuiExtraPhoto/lib/arm64/libmotion_photo.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiExtraPhoto/lib/arm64/libmotion_photo.so \
+    vendor/xiaomi/camera/proprietary/system/priv-app/MiuiExtraPhoto/lib/arm64/libmotion_photo_c++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiExtraPhoto/lib/arm64/libmotion_photo_c++_shared.so \
+    vendor/xiaomi/camera/proprietary/system/priv-app/MiuiExtraPhoto/lib/arm64/libmotion_photo_mace.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiExtraPhoto/lib/arm64/libmotion_photo_mace.so \
+    vendor/xiaomi/camera/proprietary/system/priv-app/MiuiExtraPhoto/lib/arm64/librefocus.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiExtraPhoto/lib/arm64/librefocus.so \
+    vendor/xiaomi/camera/proprietary/system/priv-app/MiuiExtraPhoto/lib/arm64/librefocus_mibokeh.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiExtraPhoto/lib/arm64/librefocus_mibokeh.so \
+    vendor/xiaomi/camera/proprietary/system/priv-app/MiuiExtraPhoto/lib/arm64/libselection.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiExtraPhoto/lib/arm64/libselection.so \
+    vendor/xiaomi/camera/proprietary/vendor/etc/camera/102_SummerDay.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/102_SummerDay.png \
+    vendor/xiaomi/camera/proprietary/vendor/etc/camera/103_Fantasy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/103_Fantasy.png \
+    vendor/xiaomi/camera/proprietary/vendor/etc/camera/104_Meet.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/104_Meet.png \
+    vendor/xiaomi/camera/proprietary/vendor/etc/camera/105_WindSing.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/105_WindSing.png \
+    vendor/xiaomi/camera/proprietary/vendor/etc/camera/106_Lost.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/106_Lost.png \
+    vendor/xiaomi/camera/proprietary/vendor/etc/camera/107_Central.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/107_Central.png \
+    vendor/xiaomi/camera/proprietary/vendor/etc/camera/108_NorthernEurope.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/108_NorthernEurope.png \
+    vendor/xiaomi/camera/proprietary/vendor/etc/camera/109_Rome.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/109_Rome.png \
+    vendor/xiaomi/camera/proprietary/vendor/etc/camera/110_BlackGold.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/110_BlackGold.png \
+    vendor/xiaomi/camera/proprietary/vendor/etc/camera/111_GreenOrange.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/111_GreenOrange.png \
+    vendor/xiaomi/camera/proprietary/vendor/etc/camera/112_Cyberpunk.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/112_Cyberpunk.png \
+    vendor/xiaomi/camera/proprietary/vendor/etc/camera/113_BlackIce.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/113_BlackIce.png
 
 PRODUCT_PACKAGES += \
-    MiuiCamera
+    libcamera_algoup_jni.xiaomi \
+    libcamera_mianode_jni.xiaomi \
+    MiuiCamera \
+    MiuiExtraPhoto

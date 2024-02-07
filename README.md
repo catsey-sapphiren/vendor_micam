@@ -3,7 +3,7 @@
 Prebuilt MIUI Camera to include in custom ROM builds.
 
 ### Supported devices
-* Xiaomi 13 (fuxi)
+* SM6115/SM6225 (bengal/khaje) devices
 
 ### How to use?
 
