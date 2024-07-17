@@ -10,7 +10,7 @@ system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture,Camera,Camera2,GoogleCameraGo;|e34a24135cdcc415bb51a6a770b644e833390428
 
 # photo - from CRdroid repository
-system/priv-app/MiuiExtraPhoto/MiuiExtraPhoto.apk;PRESIGNED
+system/priv-app/MiuiExtraPhoto/MiuiExtraPhoto.apk
 system/priv-app/MiuiExtraPhoto/lib/arm64/libdoc_photo.so
 system/priv-app/MiuiExtraPhoto/lib/arm64/libdoc_photo_c++_shared.so
 system/priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_dualcam_refocus.so
